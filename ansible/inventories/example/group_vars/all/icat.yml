@@ -1,0 +1,7 @@
+---
+icat:
+  host: "{{ groups['icat'][0] if groups['icat']|count else ''}}"
+  port: "{{ icat_port }}"
+  user: "{{ icat_uer }}"
+  password: "{{ icat_password }}"
+  db: "{{ icat_db }}"

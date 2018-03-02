@@ -1,0 +1,13 @@
+---
+jwt:
+  signing_key:
+    private: "{{ global_config_dir }}/crypto/private-key.pem"
+    public: "{{ global_config_dir }}/crypto/public-key.pem"
+    password: "{{ jwt_signing_key_password }}"
+    algorithm: "rs256"
+  accepted_keys:
+    dir: "{{ global_config_dir }}/crypto/accepted_keys"
+  validity_window:
+    end: 300
+  wso2:
+    header:

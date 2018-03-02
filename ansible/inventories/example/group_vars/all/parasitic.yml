@@ -1,0 +1,4 @@
+---
+# Indicates whether or not this environment is a complete environment or piggybacks off some other
+# environment
+parasitic: false

@@ -1,0 +1,2 @@
+---
+admin_groups: "{{ irods_admin_groups }}"

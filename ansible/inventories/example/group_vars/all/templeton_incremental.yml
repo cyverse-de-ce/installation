@@ -1,0 +1,4 @@
+---
+templeton_incremental:
+  host: templeton-incremental
+  port:

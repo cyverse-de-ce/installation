@@ -1,0 +1,5 @@
+---
+data_container:
+  ssl:
+    cert: "{{ nginx_ssl.cert }}"
+    key: "{{ nginx_ssl.cert_key }}"

@@ -1,0 +1,6 @@
+---
+nginx_ssl:
+  server_name: "{{ nginx_ssl_server_name }}"
+  cert: "{{ nginx_ssl_cert }}"
+  cert_key: "{{ nginx_ssl_key }}"
+  cert_combined: "{{ nginx_ssl_combined }}"

@@ -1,0 +1,9 @@
+---
+agave:
+  base_url: "{{ agave_base_url }}"
+  read_timeout: 10000
+  page_length: 5000
+  oauth_refresh_window: 5
+  job_status_callback: "{{ de.base }}/agave-cb"
+  client_key: "{{ some_client_key }}"
+  client_secret: "{{ some_client_secret }}"

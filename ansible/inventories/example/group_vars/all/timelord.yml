@@ -1,0 +1,7 @@
+timelord:
+  host: timelord
+  port:
+  cleanup_age: 30
+  cleanup_start: "1:30:00"
+  cleanup_enable: "true"
+  avu: timelord

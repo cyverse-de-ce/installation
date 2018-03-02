@@ -1,0 +1,10 @@
+---
+permanent_id:
+  admin_email_addr: "{{ email_to_addr }}"
+  email_from_addr: "{{ email_from_addr }}"
+  ezid:
+    username:
+    password:
+    shoulders:
+      ark:
+      doi:

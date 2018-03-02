@@ -1,0 +1,16 @@
+---
+apps:
+  host: apps
+  port: 80
+  base: "http://apps"
+  out_dir: analyses
+  ht_path_list_max_paths: 100000
+  multi_input_path_list_max_paths: 20000
+  beta_category: 5401bd14-6c14-4470-aedd-57b47ea1b979
+  hpc_category: 00000000-0000-0000-0000-000000000001
+  user_root: Workspace
+  user_subs: "[\"Apps under development\",\"Favorite Apps\"]"
+  grouper_user: "{{ de_grouper_user }}"
+  beta_attr_iri: n2t.net/ark:/99152/h1459
+  beta_attr_label: releaseStatus
+  beta_value: beta

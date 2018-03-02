@@ -1,0 +1,9 @@
+---
+dewey_listen_port: 80
+
+dewey:
+  properties_file: dewey.properties
+  log_file: dewey-docker.log
+  max_heap: "{{ max_heap.low }}"
+  amqp:
+     queue_name: "dewey.indexing"

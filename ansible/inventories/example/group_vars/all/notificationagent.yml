@@ -1,0 +1,8 @@
+---
+notificationagent:
+  host: notification-agent
+  port: 80
+  base: "http://notification-agent"
+  clean_start: "1:45:00"
+  clean_age: 90
+  clean_enable: "true"

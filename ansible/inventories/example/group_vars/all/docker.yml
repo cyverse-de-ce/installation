@@ -1,0 +1,10 @@
+---
+docker:
+  log_driver: syslog
+  tag: latest
+  user: discoenv
+  selinux_version: "https://download.docker.com/linux/centos/7/x86_64/edge/Packages/docker-ce-selinux-17.05.0.ce-1.el7.centos.noarch.rpm"
+  version: "https://download.docker.com/linux/centos/7/x86_64/edge/Packages/docker-ce-17.05.0.ce-1.el7.centos.x86_64.rpm"
+  locked_version: "0:docker-ce-17.05.0.ce-1.el7.centos.x86_64"
+  registry:
+    base: "hub.docker.com"

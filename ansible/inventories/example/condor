@@ -1,0 +1,10 @@
+[condor]
+condor-submit.example.org
+condor-worker-1.example.org
+condor-worker-2.example.org
+
+[condor-submission]
+condor-submit.example.org
+
+[condor-master]
+condor-master.example.org

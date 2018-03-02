@@ -1,0 +1,15 @@
+[kubernetes:children]
+kubernetes-control-plane
+kubernetes-worker-nodes
+
+[kubernetes-control-plane]
+control-1.example.org
+control-2.example.org
+control-3.example.org
+
+[kubernetes-worker-nodes]
+worker-1.example.org
+worker-2.example.org
+worker-3.example.org
+worker-4.example.org
+worker-5.example.org

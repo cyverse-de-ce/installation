@@ -1,0 +1,14 @@
+---
+indices:
+  data:
+    description: >-
+      Index which provides tag, metadata, file and folder
+      search capability for the Data Store.
+    name: "{{ data_index_name }}"
+    read_alias: "{{ data_index_name }}"
+    write_alias: "{{ data_index_name }}"
+    # Date stamp is typically the date the index was created.
+    # This can be created
+    index_pattern:
+    es_user:
+    es_password:

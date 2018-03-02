@@ -1,0 +1,5 @@
+---
+iplant_email:
+  host: iplant-email
+  port: 80
+  base: "http://iplant-email"

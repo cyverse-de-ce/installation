@@ -1,0 +1,8 @@
+---
+tagger:
+  host: tagger
+  port: 80
+  compose_service: tagger
+  service_name_short: tagger
+
+tagger_base: "http://tagger"

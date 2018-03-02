@@ -1,0 +1,4 @@
+---
+gpg_home_dir:
+pgp_key_password:
+pgp_keyring_path: "{{ gpg_home_dir }}/secring.gpg"

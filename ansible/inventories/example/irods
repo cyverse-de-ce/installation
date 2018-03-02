@@ -1,0 +1,9 @@
+[icat]
+icat.example.org
+
+[irods]
+irods.example.org
+
+[irods-amqp-brokers]
+amqp.example.org
+

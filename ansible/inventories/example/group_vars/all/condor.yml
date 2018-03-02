@@ -1,0 +1,8 @@
+---
+condor:
+  host: "{{ groups['condor-master'][0] }}"
+  admin:
+  collector_name: "{{ environment_name }} pool"
+  flock_to:
+  filesystem_domain: "{{ condor_filesystem_domain }}"
+  uid_domain: "{{ condor_uid_domain }}"

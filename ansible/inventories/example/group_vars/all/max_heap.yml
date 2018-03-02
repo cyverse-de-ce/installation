@@ -1,0 +1,4 @@
+---
+max_heap:
+  low: "512M"
+  high: "1G"

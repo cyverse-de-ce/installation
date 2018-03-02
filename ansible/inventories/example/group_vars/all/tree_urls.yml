@@ -1,0 +1,8 @@
+---
+tree_urls:
+  host: tree-urls
+  port: 80
+  cleanup_age: 30
+  cleanup_start: "1:30:00"
+  cleanup_enable: "true"
+  avu: tree-urls

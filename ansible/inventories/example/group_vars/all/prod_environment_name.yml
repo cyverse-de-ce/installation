@@ -1,0 +1,3 @@
+---
+# This is also referenced in group_vars/prod
+prod_environment_name: "{{ environment_name }}"

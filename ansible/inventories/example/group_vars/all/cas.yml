@@ -1,0 +1,7 @@
+---
+cas_base: "https://{{ groups['cas'][0] }}/"
+cas_group_attribute: ""
+cas_uid_domain: ""
+
+cas_no_logout_url: ""
+cas_app_list: ""

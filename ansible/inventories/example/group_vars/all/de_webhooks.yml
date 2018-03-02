@@ -1,0 +1,5 @@
+---
+de_webhooks_log_file: /logs/de-webhooks.log
+de_webhooks:
+  properties_file: de-webhooks.properties
+  log_file: de-webhooks-docker.log

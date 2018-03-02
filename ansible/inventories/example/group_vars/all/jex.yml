@@ -1,0 +1,9 @@
+---
+jex:
+  host: jex-adapter
+  port: 80
+  base: http://jex-adapter
+  batch_group: batch_processing
+  nfs_base: /condor01/scratch/
+  icommands_path: /usr/local/icommands/:/usr/local2/icommands/:/usr/local/bin/:/usr/local2/bin/:/usr/bin/
+  request_disk: 0

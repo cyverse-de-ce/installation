@@ -1,0 +1,5 @@
+---
+terrain:
+  host: terrain
+  port: 80
+  base: "http://terrain"

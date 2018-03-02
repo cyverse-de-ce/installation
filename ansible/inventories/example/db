@@ -1,0 +1,5 @@
+[db]
+psql.example.org
+
+[db-proxy]
+psql.example.org

@@ -1,0 +1,4 @@
+---
+user_preferences:
+  host: user-preferences
+  port: 80

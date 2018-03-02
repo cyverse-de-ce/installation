@@ -1,0 +1,4 @@
+[etcd]
+control-1.example.org
+control-2.example.org
+control-3.example.org

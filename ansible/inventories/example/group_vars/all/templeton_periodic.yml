@@ -1,0 +1,4 @@
+---
+templeton_periodic:
+  host: templeton-periodic
+  port:

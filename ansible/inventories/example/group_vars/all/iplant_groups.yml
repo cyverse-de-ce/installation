@@ -1,0 +1,10 @@
+---
+iplant_groups:
+  host: iplant-groups
+  port: 80
+  base_url: "http://iplant-groups"
+  grouper:
+    username: "{{ grouper.admin.user }}"
+    password: "{{ grouper.admin.pass }}"
+    api_version: "v2_2_000"
+    base_url: "{{ grouper.ws.base_url }}"

@@ -1,0 +1,15 @@
+---
+irods_admin_users: "{{ irods.user }},{{ irods.admins }}"
+irods:
+  host: "{{ groups['irods'][0] }}"
+  port: "{{ irods_port }}"
+  user: "{{ irods_user }}"
+  password: "{{ irods_password }}"
+  zone: "{{ irods_zone }}"
+  home: "{{ irods_home }}"
+  default_resource: "{{ irods_default_resource }}"
+  admins: "{{ irods_admin_groups }}"
+  data_curators_group: "{{ irods_data_curators_group }}"
+  bad_chars: "\u0060\u0027\u000A\u0009"
+  community_data_path: "{{ irods_community_data_path }}"
+  trash_path: "{{ irods_trash_path }}"

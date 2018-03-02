@@ -1,0 +1,9 @@
+---
+elasticsearch_uri: "{{elasticsearch.scheme}}://{{elasticsearch.host}}:{{elasticsearch.port}}"
+elasticsearch:
+  cluster_name: "{{ elasticsearch_cluster_name }}"
+  scheme: "http"
+  host: "{{ groups['data-store-elasticsearch'][0] }}"
+  port: "{{ elasticsearch_port }}"
+  batch_size: 1000
+  scroll_size: 1000

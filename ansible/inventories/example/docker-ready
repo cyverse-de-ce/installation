@@ -1,0 +1,5 @@
+[docker-ready:children]
+condor
+condor-submission
+kubernetes
+ui-proxy

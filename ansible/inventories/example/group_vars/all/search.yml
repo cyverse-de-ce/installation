@@ -1,0 +1,4 @@
+search:
+  host: search
+  port: 80
+  base: "http://search"

@@ -1,0 +1,8 @@
+---
+# Data Store - Border Message Service
+ds_bms:
+  amqp:
+    user:
+    password:
+    extern_vhost: "/{{ environment_name }}/data-store/user-access"
+    reg_queue: "bms_registrations"

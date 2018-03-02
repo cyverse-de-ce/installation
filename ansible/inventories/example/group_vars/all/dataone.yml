@@ -1,0 +1,14 @@
+---
+dataone:
+  amqp_read_key: "data-object.open"
+  identifier: "test_id"
+  base: "https://{% if 'ui-proxy' in groups and groups['ui-proxy']|count %}{{ groups['ui-proxy'][0] }}{% else %}{{ groups['ui'][0] }}{% endif %}/dataone-node/rest/mn"
+  subject: "CN=urn:node:mnTestCyVerse,DC=dataone,DC=org"
+  contact_subject: "CN=IpcTest A00000,O=CyVerse,C=US,DC=cilogon,DC=org"
+  query_page_length: "50"
+  plugins:
+    pid: "org.cyverse.dataone.ClojurePidServiceFactory"
+    event: "org.irods.jargon.dataone.events.defdb.DefaultEventServiceFactory"
+    repo: "org.cyverse.dataone.ClojureRepoServiceFactory"
+  uuid_attr: "ipc_UUID"
+  root_dir: "{{ dataone_root }}"

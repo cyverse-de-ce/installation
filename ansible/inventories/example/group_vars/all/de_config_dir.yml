@@ -1,0 +1,2 @@
+---
+de_config_dir: "{{ global_config_dir }}/de"

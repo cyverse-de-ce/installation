@@ -1,0 +1,6 @@
+---
+coge:
+  user: "{{ coge_user }}"
+  base_url: "{{ coge_base_url }}"
+  data_folder_name: "{{ coge_folder_name }}"
+  genome_load_url: "{{ coge_genome_load_url }}"

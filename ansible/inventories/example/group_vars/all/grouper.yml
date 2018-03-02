@@ -1,0 +1,29 @@
+---
+grouper:
+  admin:
+    user: "{{ grouper_admin_user }}"
+    pass: "{{ grouper_admin_password }}"
+  api:
+    env_name: "{{ environment_name }}"
+  db:
+    url: "jdbc:postgresql://{{ groups['db'][0] }}:{{ db_port }}/grouper"
+    host: "{{ groups['db'][0] }}"
+    port: "{{ db_port }}"
+    name: "grouper"
+    user: "{{ db_user }}"
+    pass: "{{ db_password }}"
+  loader:
+    url: "{{ ldap_url }}"
+    user: "{{ ldap_user }}"
+    pass: "{{ ldap_password }}"
+  subject_source:
+    id: "ldap"
+    name: "ldap"
+    url: "{{ ldap_url }}"
+    auth_type: SIMPLE
+    principal: "{{ ldap_user }}"
+    credentials: "{{ ldap_password }}"
+  ui:
+    base_url: "http://grouper-ui/grouper"
+  ws:
+    base_url: "http://grouper-ws/grouper-ws"

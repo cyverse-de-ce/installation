@@ -1,0 +1,7 @@
+---
+de:
+  http_server:
+    ssl:
+      insecure_redirects:
+        - server_name: "{{ nginx_ssl.server_name }}"
+          return: "https://$host$request_uri"

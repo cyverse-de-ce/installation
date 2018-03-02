@@ -1,0 +1,4 @@
+---
+consul:
+  encrypt: "{{ consul_encrypt_key }}"
+  master_token: "{{ consul_master_token }}"

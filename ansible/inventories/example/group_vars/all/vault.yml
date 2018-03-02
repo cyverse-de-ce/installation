@@ -1,0 +1,8 @@
+---
+vault:
+  token: "{{ vault_token }}"
+  url: https://{{ groups['consul'][0] }}:8200
+  irods:
+    mount_path: cubbyhole
+    child_token:
+      use_limit: 3

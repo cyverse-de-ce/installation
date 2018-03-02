@@ -1,0 +1,102 @@
+---
+agave_base_url: "https://agave.iplantc.org"
+agave_client_key: "some-client-key"
+agave_client_secret: "some-client-secret"
+
+amqp_de_user: "some-amqp-user"
+amqp_de_password: "some-amqp-password"
+amqp_de_port: "5672"
+amqp_de_management_port: "15672"
+
+amqp_irods_user: "some-amqp-user"
+amqp_irods_password: "some-amqp-password"
+amqp_irods_port: "5672"
+amqp_irods_management_port: "15672"
+
+app_base: "https://haproxy.example.org"
+
+cas_group_attribute: "entitlement"
+cas_uid_domain: "example.org"
+cas_no_logout_url: "http://someurl.example.org"
+cas_app_list: "all example applications"
+
+coge_user: "some-coge-user"
+coge_base_url: "https://coge.example.org/coge/api/v1"
+coge_data_folder_name: "coge-data"
+coge_genome_load_url: "https://coge.example.org/CoGe/services/service.pl/genome/load"
+
+condor_filesystem_domain: "example.org"
+condor_uid_domain: "example.org"
+
+consul_encrypt_key: "some-encrypt-key"
+consul_master_token: "some-master-token"
+
+data_container_image: "example-data"
+
+data_index_name: "data-example"
+
+dataone_root: "{{ irods_home }}/shared"
+
+db_user: "some-db-user"
+db_password: "some-db-password"
+db_port: "5432"
+db_admin: "some-admin-user"
+db_admin_password: "some-admin-password"
+
+de_grouper_user: "some-user"
+
+elasticsearch_cluster_name: "some-cluster-name"
+elasticsearch_port: "9200"
+
+email_support_addr: "support@example.org"
+email_from_addr: "support@example.org"
+email_to_addr: "support@example.org"
+email_smtp_host: "127.0.0.1"
+email_smtp_from_address: "support@example.org"
+
+environment_name: "example"
+
+global_config_dir: "/etc/example"
+
+grouper_admin_user: "GrouperSystem"
+grouper_admin_password: "some-password"
+
+icat_port: "5432"
+icat_user: "some-user"
+icat_password: "some-password"
+icat_db: "ICAT"
+
+irods_admin_groups: "de-admins"
+irods_port: "1247"
+irods_user: "some-user"
+irods_password: "some-password"
+irods_zone: "example-zone"
+irods_home: "/{{ irods_zone }}/home"
+irods_default_resource: ""
+irods_data_curators_group: "rodsadmin"
+irods_community_data_path: "home/shared"
+irods_trash_path: "trash/home"
+
+jwt_signing_key_password: "some-password"
+
+ldap_host: "ldap.example.org"
+ldap_dn_lookup_attribute: "uid"
+ldap_base_dn: "ou=Users,dc=example,dc=org"
+ldap_url: "ldap://ldap.example.org/dc=example,dc=org"
+ldap_user: "cn=Manager,dc=example,dc=org"
+ldap_password: "some-password"
+
+gpg_home_dir: "/etc/example/crypto"
+pgp_key_password: "some-password"
+
+nginx_ssl_server_name: "~^[^.]+[.]example[.]org$"
+nginx_ssl_cert: "/etc/ssl/example.crt"
+nginx_ssl_key: "/etc/ssl/example.key"
+nginx_ssl_combined: "/etc/ssl/example.chained.crt"
+
+redis_port: "6379"
+redis_password: "some-password"
+
+timezone: "America/Phoenix"
+
+vault_token: "some-vault-token"

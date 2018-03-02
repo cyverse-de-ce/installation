@@ -1,0 +1,6 @@
+---
+amqp_broker:
+  condor_events:
+    exchange: condor_events
+    exchange_routing_key: condor.events
+    queue_name: condor_events

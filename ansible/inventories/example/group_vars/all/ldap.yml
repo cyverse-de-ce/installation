@@ -1,0 +1,6 @@
+---
+ldap:
+  host: "{{ ldap_host }}"
+  dn_lookup:
+    attribute: "{{ ldap_dn_loookup_attribute }}"
+    base: "{{ ldap_base_dn }}"
